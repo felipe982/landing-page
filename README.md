@@ -1,2 +1,3 @@
-# landing-page
-The Landing Page lesson from The Odin Project
+# Landing Page
+
+The Landing Page lesson from The Odin Project Foundations
