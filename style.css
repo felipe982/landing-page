@@ -2,9 +2,6 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
-
-  display: flex;
-  flex-direction: column;
 }
 
 a {
@@ -15,30 +12,27 @@ a {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: ;
+  padding: 0;
 }
 
-h1 {
-  font-size: 34px;
-  font-weight: bold;
-}
-
+h1,
 h2 {
-  font-size: 1.5em;
-  font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
 
 /* ---HEADER----------------------------------------- */
 
 header {
-  background-color: #1f2937;
+  /* background-color: #1f2937; */
+  background-color: green;
   display: flex;
   justify-content: center;
 }
 
 .header-container {
   width: 80vw;
-  padding: 1em;
+  padding: 0.5em;
   color: #f9faf8;
   display: flex;
   justify-content: space-between;
@@ -56,31 +50,43 @@ header {
 /* ---HERO------------------------------------------- */
 
 .hero-container {
-  display: flex;
   background: #1f2937;
   color: #f9faf8;
+  display: flex;
   justify-content: center;
-  align-items: center;
   gap: 1em;
-
-  width: 100vw;
 }
 
 .hero-call {
   display: flex;
   gap: 1em;
   width: 80vw;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2em 0.5em;
+}
+
+.hero-call-text {
+  margin-right: 30em;
+}
+.hero-call img {
+  width: 250px;
 }
 
 .hero-call button {
   background-color: #3882f6;
   border: none;
+  font-size: 0.8em;
   color: #f9faf8;
-  width: 100px;
+  width: 120px;
+  height: 40px;
   padding: 10px 14px;
   border-radius: 0.4em;
 }
 
 .hero-container img {
   margin-bottom: 2em;
+  border-radius: 20px;
+
+  /* width: 200px; */
 }
