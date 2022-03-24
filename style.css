@@ -24,8 +24,7 @@ h2 {
 /* ---HEADER----------------------------------------- */
 
 header {
-  /* background-color: #1f2937; */
-  background-color: green;
+  background-color: #1f2937;
   display: flex;
   justify-content: center;
 }
