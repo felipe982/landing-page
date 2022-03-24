@@ -4,6 +4,7 @@
   --branco: #f9faf8;
   --azul-claro: #3882f6;
   --cinza: #e5e7eb;
+  --check: 1px solid green;
 }
 
 /* ---Reset------------------------------- */
@@ -71,6 +72,7 @@ ul {
 .hero-text {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 40%;
   color: var(--branco);
 }
