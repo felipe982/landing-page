@@ -155,3 +155,40 @@ ul {
   font-size: 18px;
   margin-right: 2em;
 }
+
+/* ---Call to action-------------------- */
+
+.cta-container {
+  background-color: var(--branco);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20em;
+}
+
+.cta-box {
+  display: flex;
+  background-color: var(--azul-claro);
+  justify-content: space-around;
+  align-items: center;
+  color: var(--branco);
+  width: 800px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.cta-box button {
+  background-color: var(--azul-claro);
+  width: 100px;
+  height: 30px;
+  border: 2px solid var(--branco);
+  border-radius: 5px;
+  color: var(--branco);
+}
+
+.cta-box h3,
+p {
+  margin: 0;
+  padding: 0;
+}
