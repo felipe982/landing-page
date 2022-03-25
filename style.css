@@ -98,6 +98,16 @@ ul {
   object-fit: cover;
 }
 
+/* ---Hover settings--------------------- */
+
+header a:hover {
+  color: rgb(249, 250, 248, 0.5);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 /* ---Random-information------------------ */
 
 .random-container {
@@ -107,7 +117,8 @@ ul {
   flex-direction: column;
   align-items: center;
   gap: 1.8em;
-  padding: 4em 0;
+  /* padding: 4em 0; */
+  padding: 43px 0 64px 0;
 }
 
 .items-container {
@@ -139,7 +150,7 @@ ul {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 2em 0;
+  padding: 5em 0;
 }
 
 .quote {
@@ -154,6 +165,7 @@ ul {
   text-align: right;
   font-size: 18px;
   margin-right: 2em;
+  margin-top: 20px;
 }
 
 /* ---Call to action-------------------- */
@@ -180,15 +192,28 @@ ul {
 
 .cta-box button {
   background-color: var(--azul-claro);
-  width: 100px;
-  height: 30px;
+  width: 130px;
+  height: 40px;
   border: 2px solid var(--branco);
   border-radius: 5px;
   color: var(--branco);
+  font-family: "Poppins", sans-serif;
 }
 
 .cta-box h3,
 p {
   margin: 0;
   padding: 0;
+}
+
+.cta-box h3 {
+  font-size: 1.5em;
+}
+
+/* ---Footer-------------------------- */
+
+footer {
+  color: rgb(249, 250, 248, 0.5);
+  padding: 20px;
+  font-weight: 300;
 }
