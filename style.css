@@ -55,6 +55,10 @@ a {
   color: var(--branco);
 }
 
+header h1 {
+  font-size: 1.5em;
+}
+
 ul {
   display: flex;
 }
@@ -98,6 +102,11 @@ ul {
   object-fit: cover;
 }
 
+.hero-text h2 {
+  font-size: 2.1em;
+  line-height: 100%;
+}
+
 /* ---Hover settings--------------------- */
 
 header a:hover {
@@ -117,7 +126,6 @@ button:hover {
   flex-direction: column;
   align-items: center;
   gap: 1.8em;
-  /* padding: 4em 0; */
   padding: 43px 0 64px 0;
 }
 
