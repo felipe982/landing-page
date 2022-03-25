@@ -179,6 +179,10 @@ button:hover {
   height: 20em;
 }
 
+.cta-text {
+  max-width: 400px;
+}
+
 .cta-box {
   display: flex;
   background-color: var(--azul-claro);
