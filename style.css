@@ -141,6 +141,7 @@ button:hover {
   width: 180px;
   text-align: center;
   margin: 0 2em;
+  row-gap: 1.5em;
 }
 
 /* ---Quote------------------------------ */
