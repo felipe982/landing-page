@@ -153,6 +153,16 @@ button:hover {
   row-gap: 1.5em;
 }
 
+.item div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item img {
+  width: 64px;
+}
+
 /* ---Quote------------------------------ */
 
 .quote-container {
